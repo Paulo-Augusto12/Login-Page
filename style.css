@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto-sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide{
+    width: 50vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftSide h1{
+    font-size: 3vw;
+    color: #77ffc0;
+}
+
+.landingImage{
+    width: 35vw;
+}
+
+.rightSide{
+    width: 50vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardLogin{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cardLogin h1{
+    color:#00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textField{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textField input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514859;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow:  0px 10px 40px #00000056;
+    outline:  none;
+    box-sizing: border-box;
+}
+
+.textField label{
+    color: #f0ffffde;
+    margin-bottom: 10px
+}
+
+.textField input::placeholder{
+    color: #f0ffff94;
+}
+
+.buttonLogin{
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+
+@media only screen and (max-width:950px) {
+    .cardLogin{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .main{
+        flex-direction: column;
+    }
+
+    .leftSide h1{
+        display: none;
+    }
+
+    .leftSide{
+        width: 100%;
+        height:auto;
+    }
+
+    .rightSide{
+        width: 100%;
+        height:auto;
+    }
+
+    .landingImage{
+        width: 50vw;
+    }
+
+    .cardLogin{
+        width: 90%;
+    }
+}
+
+
