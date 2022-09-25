@@ -8,7 +8,7 @@ Este projeto foi feito para específicar alguns conceitos a um amigo também ini
 
 ![Status](https://img.shields.io/badge/Status-Finalizado-blue)
 
-![Estrelas neste projeto](https://img.shields.io/github/stars/Paulo-Augusto12/Gerador-de-senhas?style=social)
+![Estrelas neste projeto](https://img.shields.io/github/stars/Paulo-Augusto12/Login-Page?style=social)
 
 # ⚛️ Conceitos desenvolvidos no Projeto
 
