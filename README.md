@@ -14,6 +14,5 @@ Este projeto foi feito para específicar alguns conceitos a um amigo também ini
 
 - `Html` - Estruturação do projeto feita em Html
 - `Css` - Estilização da página feita com css.
-- `Javascript ` - Lógica e interatividade da página feita com a utilização de javascript e manipulação do Dom
 
 Sei que você vai aprender a programar bem otto, não vou desistir de você.
